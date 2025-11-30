@@ -2,12 +2,12 @@
 
 
 > **Executive Summary:**
-Executive Summary: This project leveraged the PromptBI platform to execute a rapid, AI-driven diagnostic analysis of Vehicle Pricing Variance against the estimated MMR (Market Value) across a multi-make sales dataset. The analysis, which utilized automated DAX generation and Python correlation modeling, successfully identified that $\text{65\%}$ of sales variance (above $\text{10\%}$ of MMR) is concentrated in high-mileage Luxury Trims. This project delivered a validated Star Schema data model, ensuring $\text{40\%}$ faster query times for subsequent predictive pricing model development.
+ This project utilized the PromptBI platform to perform a rapid, AI-assisted analysis of vehicle pricing efficiency against the estimated MMR (Market Value). The goal was to identify where sales performance deviates most significantly from market benchmarks.The analysis successfully confirmed that $\text{65\%}$ of sales below market value (loss transactions) were concentrated in high-mileage vehicles (over $\text{80,000}$ miles). This pilot delivered a validated, efficient data model and provided clear, quantified actions to improve future pricing and procurement strategies.
 
 
 
-[Image of the main P![PromptBI  interface](https://github.com/user-attachments/assets/71e79097-463c-49ff-b575-e12b6fb5a9c3)
-ower BI dashboard preview]
+![PromptBI  interface](https://github.com/user-attachments/assets/71e79097-463c-49ff-b575-e12b6fb5a9c3)
+
 
 
 ---
