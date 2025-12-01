@@ -85,4 +85,17 @@ Such deviations can indicate brand loyalty, unique vehicle features, or market s
 
 ![Make and model](https://github.com/user-attachments/assets/67512eea-20cb-4669-bb29-9d724a49e4b2)
 
+**Business Implications:**
+Focus marketing and sales efforts on high-demand models like the Nissan Altima.
+Conduct deeper analysis on price vs. MMR to optimize pricing strategies.
+Use mileage data to better position vehicles in the market and manage expectations.
+
+
+### Average Selling Price vs MMR by Make and Model
+The analysis reveals that the Ford F-150 has the largest gap between the average selling price and MMR, with a difference of $218.76. This indicates a notable variance in market perception versus actual selling price.
+
+
+<img width="1253" height="554" alt="image" src="https://github.com/user-attachments/assets/b65b9757-bcf6-46a3-8baf-23b9164b0603" />
+
+
 
