@@ -56,17 +56,6 @@ makes and models?
 
 ## 2. Data Sources and Schema
 
-### 2.1 Data Inventory
-The analysis incorporates three datasets, totaling **[Number]** records.
-
-| Dataset | Source | Volume | Key Columns |
-| :--- | :--- | :--- | :--- |
-| `Sales_Transaction` | Internal Database (SQL Server) | 1.2 Million Rows | `TransactionID`, `ProductID`, `Date`, `Revenue` |
-| `Customer_Master` | CRM Export | 150,000 Rows | `CustomerID`, `Region`, `AcquisitionChannel` |
-| `Product_Catalog` | Flat File (.csv) | 500 Rows | `ProductID`, `Category`, `UnitCost` |
-
-### 2.2 Data Model Structure
-The data was modeled using a **Star Schema** to ensure optimal query performance and measure reliability. The `Sales_Transaction` table serves as the central Fact Table.
 
 
 
@@ -86,13 +75,6 @@ The following transformations were generated and executed using natural language
 | **Outlier Handling** | "In the 'Revenue' column, cap all values exceeding the 99th percentile." | [`Prompt_01_Outlier_Cap.txt`](./PromptBI_Artifacts/Prompts/Prompt_01_Outlier_Cap.txt) | **`pandas.clip()`** function to stabilize distribution. |
 | **Feature Creation** | "Create a 'Time_of_Day' column (Morning, Afternoon, Evening) from the 'Transaction_Time'." | [`Code_02_Time_Feature.py`](./PromptBI_Artifacts/Generated_Code/Code_02_Time_Feature.py) | Facilitate time-based segmentation analysis. |
 
-### 3.2 Advanced Metrics and DAX Generation
-The core analytical measures were created using PromptBI's DAX generation capabilities.
-
-| Measure Name | Prompt Used (Artifact) | Generated DAX Expression (Artifact) | Description |
-| :--- | :--- | :--- | :--- |
-| **`MoM_Growth_Rate`** | "Write the DAX for Month-over-Month Sales Growth Rate." | [`Measure_01_MoM_Growth.dax`](./PromptBI_Artifacts/Generated_Code/Measure_01_MoM_Growth.dax) | Crucial time intelligence calculation. |
-| **`LTV_Estimate`** | "Calculate Estimated Customer Lifetime Value based on 12-month average revenue." | [`Measure_02_LTV_Calc.dax`](./PromptBI_Artifacts/Generated_Code/Measure_02_LTV_Calc.dax) | Key metric for marketing segmentation. |
 
 ---
 
@@ -109,17 +91,6 @@ The analysis results, visualized in the Prompt BI dashboard, revealed several cr
 
 ---
 
-## 5. Tools and Technologies
-
-| Category | Tool/Language | Purpose |
-| :--- | :--- | :--- |
-| **AI Generation** | PromptBI (Assumed) | Code generation, narrative summarization, initial modeling |
-| **BI Tool** | Power BI Desktop | Data Model visualization and final report creation |
-| **Code & Scripting** | Python (Pandas, NumPy) | Advanced statistical analysis and data cleaning logic |
-| **Version Control** | Git / GitHub | Repository management and code artifact storage |
-
----
-
 ## 6. Repository Structure and Viewing the Report
 
 ### 6.1 Repository Contents
@@ -128,17 +99,4 @@ The key files for replicating the analysis are:
 * `Data/cleaned_data.csv`: The prepared dataset used in the final model.
 * `PromptBI_Artifacts/`: Contains all the code and prompts documented above.
 
-### 6.2 How to View
-1.  **Clone the Repo** and open the `Analysis_Report.pbix` in Power BI Desktop.
-2.  Review the key generated logic in the `PromptBI_Artifacts/` folder.
 
----
-
-## 7. Future Enhancements
-
-* **Sentiment Analysis:** Integrate external data sources (e.g., social media comments) and use an AI-generated Python script to perform sentiment analysis on customer feedback.
-* **Predictive Dashboard:** Utilize the PromptBI's ML capabilities to build a live prediction model for demand forecasting and embed the $\text{R/Python}$ visual in the final report.
-
----
-
-**Author:** [Your Name] | **Contact:** [Your Email] | **Connect:** [Your LinkedIn Profile]
