@@ -18,10 +18,6 @@ This pilot project successfully produced a validated and efficient data model wh
 
 
 
-![PromptBI  interface](https://github.com/user-attachments/assets/71e79097-463c-49ff-b575-e12b6fb5a9c3)
-
-
-
 ---
 
 ## Dataset Overview
@@ -36,7 +32,6 @@ The dataset captures detailed records of vehicle sales transactions, providing a
 | Category | Tool/Language | Purpose |
 | :--- | :--- | :--- |
 | **AI Generation** | PromptBI (Assumed) | Code generation, narrative summarization, initial modeling |
-| **BI Tool** | Power BI Desktop | Data Model visualization and final report creation |
 | **Code & Scripting** | Python (Pandas, NumPy) | Advanced statistical analysis and data cleaning logic |
 | **Version Control** | Git / GitHub | Repository management and code artifact storage |
 ## 1. Project Goals and Business Problem
@@ -60,10 +55,8 @@ This project emphasizes the use of **PromptBI** to rapidly generate and validate
 ### 3.1 Data Preparation (AI-Assisted ETL)
 The following transformations were generated and executed using natural language prompts:
 
-| Transformation Step | Prompt Used (Artifact) | Generated Code Preview | Purpose |
-| :--- | :--- | :--- | :--- |
-| **Outlier Handling** | "In the 'Revenue' column, cap all values exceeding the 99th percentile." | [`Prompt_01_Outlier_Cap.txt`](./PromptBI_Artifacts/Prompts/Prompt_01_Outlier_Cap.txt) | **`pandas.clip()`** function to stabilize distribution. |
-| **Feature Creation** | "Create a 'Time_of_Day' column (Morning, Afternoon, Evening) from the 'Transaction_Time'." | [`Code_02_Time_Feature.py`](./PromptBI_Artifacts/Generated_Code/Code_02_Time_Feature.py) | Facilitate time-based segmentation analysis. |
+
+![PromptBI  interface](https://github.com/user-attachments/assets/154f419d-738b-4a6a-8c36-40ae21ca1465)
 
 
 ---
@@ -72,16 +65,17 @@ The following transformations were generated and executed using natural language
 
 The analysis results, visualized in the Prompt BI dashboard, revealed several critical findings:
 
-1.  **Highest Number of Sales by Make and Model:** The Nissan Altima leads in sales with a total of 19,349 units sold. This is highlighted in the chart showing the top 15 make/model combinations by sales count.
+### **Highest Number of Sales by Make and Model:** 
+The Nissan Altima leads in sales with a total of 19,349 units sold. This is highlighted in the chart showing the top 15 make/model combinations by sales count.
     
-a.  **Market Value Comparison:** Average selling prices for top models should be compared to their MMR to identify discrepancies.
+1.  **Market Value Comparison:** Average selling prices for top models should be compared to their MMR to identify discrepancies.
 This comparison can reveal opportunities for pricing strategies or highlight market inefficiencies.
 
     
-b.  **Mileage Impact on Selling Price:** Analyzing how mileage affects selling price can inform inventory management and customer expectations.
+2.  **Mileage Impact on Selling Price:** Analyzing how mileage affects selling price can inform inventory management and customer expectations.
 Lower mileage vehicles typically command higher prices, which can be leveraged in marketing efforts.
 
-c.**Deviations from Market Value:** Identify vehicles sold significantly above or below MMR to understand market dynamics or customer perceptions.
+3.**Deviations from Market Value:** Identify vehicles sold significantly above or below MMR to understand market dynamics or customer perceptions.
 Such deviations can indicate brand loyalty, unique vehicle features, or market saturation.
 
 
