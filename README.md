@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project leveraged the PromptBI platform to conduct a rapid, AI-assisted assessment of vehicle pricing efficiency in comparison to estimated Market Value (MMR). The objective was to identify patterns and gaps where sales performance diverged from market benchmarks. Through the analysis, the team discovered that 65% of below-market (loss) transactions were concentrated in high-mileage vehicles, specifically those exceeding 80,000 miles.
+This project leveraged the PromptBI platform to conduct a rapid, AI-assisted assessment of vehicle pricing efficiency in comparison to estimated Market Value (MMR). The objective was to identify patterns and gaps where sales performance diverged from market benchmarks.
 
 This pilot project successfully produced a validated and efficient data model while generating actionable insights to guide improvements in pricing accuracy and procurement strategies. The results provide a strong foundation for expanding the analysis into broader operational and strategic decision-making.
 
