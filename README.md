@@ -31,7 +31,7 @@ The dataset captures detailed records of vehicle sales transactions, providing a
 
 | Category | Tool/Language | Purpose |
 | :--- | :--- | :--- |
-| **AI Generation** | PromptBI (Assumed) | Code generation, narrative summarization, initial modeling |
+| **AI Generation** | PromptBI  | Code generation, narrative summarization, initial modeling |
 | **Code & Scripting** | Python (Pandas, NumPy) | Advanced statistical analysis and data cleaning logic |
 | **Version Control** | Git / GitHub | Repository management and code artifact storage |
 ## 1. Project Goals and Business Problem
