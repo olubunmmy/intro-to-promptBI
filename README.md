@@ -1,4 +1,4 @@
-# AI for Business interlligence:Vehicle Sales and Market Trends Analysis (PromptBI Pilot)
+# AI for Business intelligence:Vehicle Sales and Market Trends Analysis (PromptBI Pilot)
 
 
 
