@@ -24,14 +24,14 @@ This pilot project successfully produced a validated and efficient data model wh
 
 ---
 
-Dataset Overview
+## Dataset Overview
 
 The dataset captures detailed records of vehicle sales transactions, providing a rich source of data for understanding the dynamics of the used and new vehicle markets. By combining transactional data with vehicle specifications and estimated market values, analysts can gain deep insights into pricing, depreciation, and consumer preferences.
 
 ---
 
 
- Tools and Technologies
+ ## Tools and Technologies
 
 | Category | Tool/Language | Purpose |
 | :--- | :--- | :--- |
