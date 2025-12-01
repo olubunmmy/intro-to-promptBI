@@ -97,5 +97,68 @@ The analysis reveals that the Ford F-150 has the largest gap between the average
 
 <img width="1253" height="554" alt="image" src="https://github.com/user-attachments/assets/b65b9757-bcf6-46a3-8baf-23b9164b0603" />
 
+1. **Sales Gap Analysis:**
+The largest gap in sales is observed for the Ford F-150 with a difference of 218.76 units. This significant gap suggests either exceptional performance or a potential market anomaly worth investigating.
+
+3. **Implications for Business Strategy:**
+- Focus on High-Demand Models: Given the Ford F-150's strong sales, consider increasing inventory and marketing efforts for this model. - Investigate Sales Gaps: Analyze the reasons behind the large sales gap for the Ford F-150 to replicate success or address underlying issues.
+
+  **Action:**
+-Conduct a deeper dive into the sales data for the Ford F-150 to understand contributing factors.
+-Review market conditions and competitor strategies to align with the high demand for this model.
+-Consider targeted promotions or bundles to further boost sales of the Ford F-150.
+
+###  Vehicle Mileage vs Selling Price
+There is a significant negative correlation between vehicle mileage and selling price, with a correlation coefficient of -0.58. This suggests that as the odometer reading increases, the selling price tends to decrease.
+
+![odometer](https://github.com/user-attachments/assets/ce761e6e-9e1b-4628-b831-e4b647127fab)
+
+
+### Insights from Vehicle Sales Data
+
+1. **Highest Number of Sales by Vehicle Makes and Models**
+Insight: The chart does not provide specific data on vehicle makes and models with the highest number of sales. Further segmentation is required to identify top-selling vehicles.
+2. **Average Selling Price vs. MMR (Market Value)**
+Insight: The chart lacks detailed comparison data between average selling prices and MMR for different makes and models. Additional data collection is needed to perform this analysis.
+3. **Vehicle Mileage Impact on Selling Price**
+Insight: The chart shows a wide range of odometer readings from 0 to 999,999 miles and selling prices from $100 to $88,000.
+Generally, higher mileage tends to correlate with lower selling prices.
+However, specific trends require deeper analysis with more granular data.
+
+4. **Vehicles Sold Significantly Above or Below MMR**
+Insight: The chart does not provide enough data to identify vehicles sold significantly above or below their estimated market value (MMR). More detailed pricing and MMR data are necessary for this analysis.
+
+**Next Steps**
+-Collect detailed sales data segmented by vehicle make and model.
+-Gather MMR data for accurate comparison with selling prices.
+-Analyze the relationship between mileage and selling price with a larger dataset.
+
+4. **Vehicles Sold Significantly Above or Below MMR**
+The Nissan Altima again stands out, with 3,274 vehicles sold significantly above MMR and 3,591 sold significantly below. This indicates a wide variance in pricing for this model.
+
+
+![above and below](https://github.com/user-attachments/assets/f874d2d4-fed4-4f18-8d77-c6dac62327ba)
+
+ ## Conclusion
+1. **Highest Number of Sales**
+The Nissan Altima has the highest number of significant price deviations, indicating a strong presence in the market.
+
+2. **Price Deviations from MMR**
+The Nissan Altima shows the most instances of both above and below market value (MMR) sales.
+Above MMR: 3274 instances
+Below MMR: 3591 instances
+
+3. **Implications for Business**
+The high number of deviations for the Nissan Altima suggests variability in pricing strategies or market conditions.
+This could indicate opportunities for targeted marketing or pricing adjustments to better align with market values.
+
+4. **Recommended Next Move**
+Investigate the causes behind the significant price deviations for the Nissan Altima.
+Consider refining pricing strategies to reduce the gap between selling price and MMR.
+
+System Message Note: While the analysis provides valuable insights, it’s important to note that some data might be sampled or filtered for clarity. For the most accurate results, consider analyzing the complete dataset or specific segments of interest.
+If you have any specific makes or models you’d like to dive deeper into, feel free to ask!
+
+
 
 
