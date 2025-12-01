@@ -50,17 +50,7 @@ This analysis was structured to answer the following core business questions:
 makes and models?
 * How does vehicle mileage affect the selling price?
 * Are there vehicles that sold for significantly more or less than their estimated market value
-(MMR)?
-
----
-
-## 2. Data Sources and Schema
-
-
-
-
-
-
+(MMR)
 ---
 
 ## 3. Methodology: The PromptBI Workflow
@@ -82,21 +72,23 @@ The following transformations were generated and executed using natural language
 
 The analysis results, visualized in the Prompt BI dashboard, revealed several critical findings:
 
-1.  **High-Margin Customers:** The **'Referral'** acquisition channel accounts for only $\text{15\%}$ of total transactions but contributes over $\text{35\%}$ of the total profit, indicating a significantly higher Customer Lifetime Value (LTV).
-    * **Action:** Double the marketing budget allocated to referral programs.
-2.  **Seasonality Anomaly:** The traditional Q4 sales peak has shifted, with **Q3 now showing a $\text{10\%}$ higher revenue growth rate** driven entirely by Product Category 'Z'.
-    * **Action:** Re-align inventory and promotional strategies to focus peak activity in Q3.
-3.  **Inventory Risk:** Inventory Turnover for Product Category 'A' is $\text{25\%}$ slower than the company average, leading to high carrying costs.
-    * **Action:** Implement a just-in-time inventory system for Category 'A' to reduce warehousing expenses.
+1.  **Highest Number of Sales by Make and Model:** The Nissan Altima leads in sales with a total of 19,349 units sold. This is highlighted in the chart showing the top 15 make/model combinations by sales count.
+    
+a.  **Market Value Comparison:** Average selling prices for top models should be compared to their MMR to identify discrepancies.
+This comparison can reveal opportunities for pricing strategies or highlight market inefficiencies.
 
----
+    
+b.  **Mileage Impact on Selling Price:** Analyzing how mileage affects selling price can inform inventory management and customer expectations.
+Lower mileage vehicles typically command higher prices, which can be leveraged in marketing efforts.
 
-## 6. Repository Structure and Viewing the Report
+c.**Deviations from Market Value:** Identify vehicles sold significantly above or below MMR to understand market dynamics or customer perceptions.
+Such deviations can indicate brand loyalty, unique vehicle features, or market saturation.
 
-### 6.1 Repository Contents
-The key files for replicating the analysis are:
-* `PowerBI/Analysis_Report.pbix`: The final report file.
-* `Data/cleaned_data.csv`: The prepared dataset used in the final model.
-* `PromptBI_Artifacts/`: Contains all the code and prompts documented above.
+
+
+![Top Make](https://github.com/user-attachments/assets/7e71baef-8a9f-4058-b0f4-49040e7336dd)
+
+
+![Make and model](https://github.com/user-attachments/assets/67512eea-20cb-4669-bb29-9d724a49e4b2)
 
 
